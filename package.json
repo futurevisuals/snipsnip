@@ -6,7 +6,6 @@
     "diff": "lerna diff",
     "changed": "lerna changed",
     "list": "lerna list",
-    "version": "lerna version",
     "start": "lerna run",
     "commit": "npx git-cz"
   },
