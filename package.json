@@ -6,7 +6,9 @@
     "diff": "lerna diff",
     "changed": "lerna changed",
     "list": "lerna list",
-    "start": "lerna run"
+    "version": "lerna version",
+    "start": "lerna run",
+    "commit": "npx git-cz"
   },
   "devDependencies": {
     "lerna": "^3.22.1"

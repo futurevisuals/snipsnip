@@ -1,0 +1,19 @@
+{
+  "name": "@futurevisuals/snip-modal",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "body-scroll-lock": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/body-scroll-lock": "^2.6.1",
+    "typescript": "^3.9.6"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
