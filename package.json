@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "publish": "lerna publish",
+    "diff": "lerna diff",
+    "changed": "lerna changed",
+    "list": "lerna list",
+    "start": "lerna run"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
