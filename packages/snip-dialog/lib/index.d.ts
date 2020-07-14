@@ -1,14 +1,14 @@
 interface Options {
-    className?: string;
-    target?: Element;
-    init?: () => void;
+    className: string;
+    target: Element;
+    init: () => undefined;
     title: string;
     content: string;
 }
 export declare class Dialog {
     private dialogInDOM;
     private options;
-    constructor(options?: Options);
+    constructor(options?: Partial<Options>);
     private createDialog;
     private addEvents;
     mount(): void;

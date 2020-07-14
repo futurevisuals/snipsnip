@@ -1,25 +1,29 @@
 import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 
 interface Options {
-  className?: string;
-  target?: Element;
-  init?: () => void;
+  className: string;
+  target: Element;
+  init: () => undefined;
   title: string;
   content: string;
 }
 
 export class Dialog {
-  private dialogInDOM: Element = document.createElement('DIV');
+  private dialogInDOM: Element;
   private options: Options;
 
-  constructor(options?: Options){
-    const defaultOptions = {
+  constructor(options?: Partial<Options>){
+    const defaultOptions: Required<Options> = {
       className: 'o-dialog',
       target: document.body,
       title: 'My Modal',
-      content: 'My modal content'
+      content: 'My modal content',
+      init: () => undefined
     };
+
     this.options = { ...defaultOptions, ...options };
+    this.dialogInDOM = document.createElement('DIV');
+    this.dialogInDOM.classList.add('js-dialog', this.options.className)
 
     if (document.querySelector('.js-dialog')) {
       throw new Error('You can only have one dialog on the page, unmount the other first.');
