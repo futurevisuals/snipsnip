@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/futurevisuals/snipsnip/compare/@futurevisuals/snip-dialog@0.2.0...@futurevisuals/snip-dialog@0.2.1) (2020-07-14)
+
+
+### Bug Fixes
+
+* 🐛 Remove correct div when unmounting ([bca6a3c](https://github.com/futurevisuals/snipsnip/commit/bca6a3cdcb72df69c404d1fdf17d43e2c1170e25))
+
+
+
+
+
 # 0.2.0 (2020-07-11)
 
 
