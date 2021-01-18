@@ -3,9 +3,11 @@
     "packages/*"
   ],
   "version": "independent",
+  "useWorkspaces": "true",
   "command": {
     "publish": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "registry": "https://npm.pkg.github.com"
     }
   }
 }
