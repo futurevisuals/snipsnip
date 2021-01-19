@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/futurevisuals/snipsnip/compare/@futurevisuals/snip-dialog@1.1.0...@futurevisuals/snip-dialog@1.1.1) (2021-01-19)
+
+
+### Bug Fixes
+
+* 🐛 Production bundle and module kind ([d460098](https://github.com/futurevisuals/snipsnip/commit/d460098ad47bb701ea56625a5c1e06988fc230da))
+
+
+
+
+
 # 1.1.0 (2021-01-19)
 
 
