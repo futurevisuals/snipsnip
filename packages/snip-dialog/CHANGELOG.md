@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.1.0 (2021-01-19)
+
+
+### Bug Fixes
+
+* 🐛 Add "main" and "types" directory ([02c6042](https://github.com/futurevisuals/snipsnip/commit/02c6042ef574f140111844c90435475fc00ed3ad))
+* 🐛 Add publish scope for Dialog package ([e737969](https://github.com/futurevisuals/snipsnip/commit/e7379694fe8a534f88c0f1f7a6e5d3edf576f8b9))
+* 🐛 Remove correct div when unmounting ([bca6a3c](https://github.com/futurevisuals/snipsnip/commit/bca6a3cdcb72df69c404d1fdf17d43e2c1170e25))
+* 🐛 Reset versions ([59bdca0](https://github.com/futurevisuals/snipsnip/commit/59bdca0f706937c948c31fc9dac915434cdead8c))
+
+
+### Features
+
+* 🎸 Add Dialog ([fd26340](https://github.com/futurevisuals/snipsnip/commit/fd26340dbdf2022cdf095adac50d56a0ef558adf))
+
+
+
+
+
 ## [0.2.2](https://github.com/futurevisuals/snipsnip/compare/@futurevisuals/snip-dialog@0.2.1...@futurevisuals/snip-dialog@0.2.2) (2021-01-18)
 
 **Note:** Version bump only for package @futurevisuals/snip-dialog
