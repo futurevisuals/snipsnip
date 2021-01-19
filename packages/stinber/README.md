@@ -1,4 +1,4 @@
-![Stinber](./stinber.png)
+![Stinber](https://raw.githubusercontent.com/futurevisuals/snipsnip/master/packages/stinber/stinber.png)
 
 # Stinber
 Vanilla JS two-way databinding made easy! With this lightweight (**608 bytes**) vanilla JS library (written in Typescript) it is easy to update the DOM based on data.
@@ -69,15 +69,16 @@ const renderConfig = {
   stringifyValues: false
 }
 
+// The renderConfig and its properties are all optional.
 createState(myState, renderConfig)
 ```
 
 ### listener
 To really create two-way databinding you should link your data to some kind of user input. For now Stinber only support binding with the following inputs:
 
-- <input />
-- <textarea></textarea>
-- <select></select>
+- `<input />`
+- `<textarea></textarea>`
+- `<select></select>`
 
 You can ofcourse create your own listening event and update the state manually, however for simple usage you can use the built-in listener.
 
@@ -93,4 +94,4 @@ document.querySelector('input').addEventListener('keyup', listener.bind(myState)
 *Note: Don't forget to bind your state as in the example!*
 
 ## Contributing
-If you experiencing some bugs or like to see some feature added please create a feature request, issue or a PR on [https://github.com/futurevisuals/snipsnip](https://github.com/futurevisuals/snipsnip).
+If you experiencing bugs or like to see some feature added please create a feature request, issue or a PR on [https://github.com/futurevisuals/snipsnip](https://github.com/futurevisuals/snipsnip).
