@@ -94,4 +94,4 @@ document.querySelector('input').addEventListener('keyup', listener.bind(myState)
 *Note: Don't forget to bind your state as in the example!*
 
 ## Contributing
-If you experiencing some bugs or like to see some feature added please create a feature request, issue or a PR on [https://github.com/futurevisuals/snipsnip](https://github.com/futurevisuals/snipsnip).
+If you experiencing bugs or like to see some feature added please create a feature request, issue or a PR on [https://github.com/futurevisuals/snipsnip](https://github.com/futurevisuals/snipsnip).
