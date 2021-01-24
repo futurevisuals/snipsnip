@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.4](https://github.com/futurevisuals/snipsnip/compare/@futurevisuals/stinber@1.1.2...@futurevisuals/stinber@1.1.4) (2021-01-24)
+
+
+### Bug Fixes
+
+* 🐛 Fix mismatching version for Stinber ([ad71b0b](https://github.com/futurevisuals/snipsnip/commit/ad71b0bf95b04d6a6b6665247ec4df725e49afc8))
+* 🐛 number should be boolean ([346f558](https://github.com/futurevisuals/snipsnip/commit/346f558e837cf5561fbcb1cba3b52305ad097ece))
+
+
+
+
+
 ## [1.1.2](https://github.com/futurevisuals/snipsnip/compare/@futurevisuals/stinber@1.1.1...@futurevisuals/stinber@1.1.2) (2021-01-24)
 
 
