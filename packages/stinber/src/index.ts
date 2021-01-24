@@ -8,4 +8,6 @@ export interface RenderConfig {
   stringifyValues: boolean;
 }
 
-export type State = Record<string, string | number>;
+export type StateValue = string | number | boolean;
+
+export type State = Record<string, StateValue>;

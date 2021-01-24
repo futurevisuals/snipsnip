@@ -1,17 +1,13 @@
 import { omit } from 'lodash-es';
 import { State, RenderConfig, render } from './index';
 
-type ProxyReturn = {
-  [x: string]: string | number | boolean;
-}
-
 /**
  * Creates a state for two way data binding. If this state change the dom
  * will render as well.
  * @param state An literal object with your data
  * @param config A config like `{ initialRender: false }`
  */
-export const createState = (state: State, config?: Partial<RenderConfig>): ProxyReturn => {
+export const createState = (state: State, config?: Partial<RenderConfig>): State => {
   const { initialRender = true } = config ?? {};
   const renderConfig = omit(config, 'initialRender');
 
