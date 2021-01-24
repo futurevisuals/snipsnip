@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.5](https://github.com/futurevisuals/snipsnip/compare/@futurevisuals/stinber@1.1.4...@futurevisuals/stinber@1.1.5) (2021-01-24)
+
+
+### Bug Fixes
+
+* 🐛 Change typing to handle boolean ([660211c](https://github.com/futurevisuals/snipsnip/commit/660211c7a54d2f48a095df1d75377ff5dcbad4b4))
+
+
+
+
+
 ## [1.1.4](https://github.com/futurevisuals/snipsnip/compare/@futurevisuals/stinber@1.1.2...@futurevisuals/stinber@1.1.4) (2021-01-24)
 
 
