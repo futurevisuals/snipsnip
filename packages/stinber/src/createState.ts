@@ -2,7 +2,7 @@ import { omit } from 'lodash-es';
 import { State, RenderConfig, render } from './index';
 
 type ProxyReturn = {
-  [x: string]: string | number | number;
+  [x: string]: string | number | boolean;
 }
 
 /**
