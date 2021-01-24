@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/futurevisuals/snipsnip/compare/@futurevisuals/stinber@1.1.1...@futurevisuals/stinber@1.1.2) (2021-01-24)
+
+
+### Bug Fixes
+
+* 🐛 Allow boolean as type for state ([aa01c08](https://github.com/futurevisuals/snipsnip/commit/aa01c084f7a6ccc129ba41806f4eedec07210526))
+
+
+
+
+
 ## [1.1.1](https://github.com/futurevisuals/snipsnip/compare/@futurevisuals/stinber@1.1.0...@futurevisuals/stinber@1.1.1) (2021-01-19)
 
 
