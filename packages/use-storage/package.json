@@ -1,0 +1,31 @@
+{
+  "name": "@futurevisuals/use-storage",
+  "description": "Just a useState hook which persist the state in the localStorage",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "start": "tsc -p . -w",
+    "build": "tsc -p .",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "localstorage",
+    "usestate",
+    "react"
+  ],
+  "author": {
+    "name": "Rick van den Broek",
+    "email": "r.broek@futurevisuals.nl"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^17.0.1"
+  }
+}

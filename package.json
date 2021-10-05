@@ -10,7 +10,10 @@
     "commit": "npx git-cz"
   },
   "devDependencies": {
+    "@types/react": "^17.0.3",
     "lerna": "^3.22.1"
   },
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ]
 }
