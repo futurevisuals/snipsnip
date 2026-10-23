@@ -27,7 +27,7 @@ You can do a lot of things with Stinber, a very simple example might look someth
 import { createState, listener } from '@futurevisuals/stinber';
 
 const myState = createState({
-  name: 'Future Visuals',
+  name: 'Future Visuals B.V.',
   job: 'Developer'
 });
 
@@ -42,7 +42,7 @@ Stinber exports two functions which you are gonna use primarily. These function 
 import { createState } from '@futurevisuals/stinber';
 
 const myState = {
-  name: 'Future Visuals'
+  name: 'Future Visuals B.V.'
   // ... more data you want to bind
 }
 
@@ -86,7 +86,7 @@ You can ofcourse create your own listening event and update the state manually, 
 import { createState, listener } from '@futurevisuals/stinber';
 
 const myState = createState({
-  name: 'Future Visuals',
+  name: 'Future Visuals B.V.',
 });
 
 document.querySelector('input').addEventListener('keyup', listener.bind(myState));

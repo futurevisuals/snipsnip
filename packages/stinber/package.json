@@ -22,7 +22,7 @@
     "vanilla",
     "ui"
   ],
-  "author": "Rick van den Broek <r.broek@futurevisuals.nl>",
+  "author": "Future Visuals B.V. <r.broek@futurevisuals.nl>",
   "license": "ISC",
   "devDependencies": {
     "@types/lodash-es": "^4.17.4",
